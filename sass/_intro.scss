@@ -1,0 +1,50 @@
+.intro {
+  &-content_top {
+    width: 50%;
+  }
+  &-content_bottom a {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    color: $primary-color-55;
+    text-transform: uppercase;
+    padding: 8px 40px;
+    font-weight: bold;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+  }
+  &-content_bottom a:hover {
+    color: #fff;
+    background-color: $primary-color-55;
+    border-color: $primary-color-55;
+    text-decoration: none;
+  }
+  & .slogan {
+      position: relative;
+    //   height: 150px;
+      color: $text-color;
+      padding: 35px 15%;
+  }
+  & .slogan::before {
+      content: '';
+      background: url('http://mochimart.vn/uploads/plugin/custom_img/2019-07-19/1563517298-1094105602-custom.jpg') no-repeat;
+      position: absolute;
+    height: 100%;
+    width: 155%;
+    right: 97px;
+    top: 0;
+    background-size: cover;
+    z-index: -1;
+  }
+  & .slogan::after {
+    content: '';
+    background: url('http://mochimart.vn/uploads/plugin/custom_img/2019-07-19/1563519151-216168796-custom.png') no-repeat;
+    position: absolute;
+    height: 115%;
+    width: 100%;
+    left: 79%;
+    top: 15px;
+  z-index: -1;
+}
+}

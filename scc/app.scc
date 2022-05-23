@@ -1,0 +1,214 @@
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.font15 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.font12 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.fontDar {
+  font-size: 12px;
+  font-weight: 300;
+  color: #989898;
+}
+
+.p {
+  margin-bottom: 0px !important;
+}
+
+.text-color {
+  color: #ffffff;
+}
+
+.bg-title {
+  background: #ee2b34;
+  color: #ffffff;
+  padding: 15px 60px;
+  border-radius: 10px;
+}
+
+.header a, .header a:hover {
+  text-decoration: none;
+  color: #ffffff !important;
+}
+.header-top, .header-bottom {
+  background: #ed1f28;
+  font-size: 16px;
+}
+.header-top .dropdown-toggle::after, .header-bottom .dropdown-toggle::after {
+  display: none;
+}
+.header-center_image {
+  width: 409px;
+  height: 75px;
+}
+.header-center img {
+  width: 100%;
+  height: 100%;
+}
+.header-center .dolar, .header-center .hotline {
+  width: 39px;
+  height: 39px;
+  margin-right: 15px;
+}
+.header-bottom li:hover {
+  background-color: rgba(0, 0, 0, 0.07);
+}
+
+.content-slider li {
+  background-color: #ed1f28;
+  text-align: center;
+  color: #ffffff;
+}
+
+.content-slider h3 {
+  margin: 0;
+  padding: 70px 0;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+}
+.slider ul {
+  height: 700px !important;
+  list-style: none outside none;
+  padding-left: 0;
+  margin: 0;
+}
+.slider ul li {
+  height: 100%;
+}
+
+.main-products {
+  background-image: url(https://fpnature.vn/wp-content/uploads/2020/12/g2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product {
+  border: 2px solid #ccc;
+  background: #ffffff;
+}
+.product img {
+  width: 100%;
+}
+.product_content-mota {
+  height: 76px;
+  overflow: hidden;
+  font-size: 13px;
+}
+.product_content-title a, .product_content-title a:hover {
+  text-decoration: none;
+  color: #ed1f28;
+}
+
+.intro-content_top {
+  width: 50%;
+}
+.intro-content_bottom a {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ee2b34;
+  text-transform: uppercase;
+  padding: 8px 40px;
+  font-weight: bold;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  transition: all 0.5s ease;
+}
+.intro-content_bottom a:hover {
+  color: #fff;
+  background-color: #ee2b34;
+  border-color: #ee2b34;
+  text-decoration: none;
+}
+.intro .slogan {
+  position: relative;
+  color: #ffffff;
+  padding: 35px 15%;
+}
+.intro .slogan::before {
+  content: "";
+  background: url("http://mochimart.vn/uploads/plugin/custom_img/2019-07-19/1563517298-1094105602-custom.jpg") no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 155%;
+  right: 97px;
+  top: 0;
+  background-size: cover;
+  z-index: -1;
+}
+.intro .slogan::after {
+  content: "";
+  background: url("http://mochimart.vn/uploads/plugin/custom_img/2019-07-19/1563519151-216168796-custom.png") no-repeat;
+  position: absolute;
+  height: 115%;
+  width: 100%;
+  left: 79%;
+  top: 15px;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=app.scc.map */

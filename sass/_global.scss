@@ -1,0 +1,35 @@
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+body {
+  font-family: $font;
+  line-height: 1;
+  color: $text-color;
+  font-weight: 400;
+  font-size: 14px;
+}
+.font15 {
+  font-size: 15px;
+  font-weight: 700;
+}
+.font12 {
+  font-size: 12px;
+  font-weight: 700;
+}
+.fontDar {
+  font-size: 12px;
+  font-weight: 300;
+  color: $dar-color;
+}
+.p {
+  margin-bottom: 0px !important;
+}
+.content-slider li{
+  background-color: transparent !important;
+}

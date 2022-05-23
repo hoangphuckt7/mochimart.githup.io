@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.1" />
+    <title>CÔNG TY TNHH XÂY DỰNG VÀ NỘI THẤT RUBY</title>
+    <link href="./images/logo.png" type="image/x-icon" rel="icon" />
+    <link rel="stylesheet" href="css/app.css" type="text/css" />
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- SLIDER -->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="./js/lightslider-master/src/css/lightslider.css"
+    />
+  </head>
+  <body>
+    <div class="warpper">
+      <!------------------------------------------ HEADER ------------------------------------------>
+      <header class="header">
+        <div class="header-top pt-2 pb-2">
+          <div class="container d-flex justify-content-end">
+            <div class="text-color font-weight-bold pr-5">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <strong>Hotline: 096.560.6786</strong>
+            </div>
+            <div class="dropdown show">
+              <a
+                class="dropdown-toggle text-color"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                Giỏ hàng
+                <span class="number">0</span>
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#"
+                  >Không có sản phẩm nào trong giỏ hàng</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-center mt-2 mb-2">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6">
+                <div class="header-center_image">
+                  <a href="#">
+                    <img src="./images/logo.png" alt="Logo MOCHIMART" />
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6">
+                <div
+                  class="header-center_content d-flex justify-content-around"
+                >
+                  <div class="d-flex align-items-center">
+                    <div class="dolar">
+                      <img src="./images/money.png" alt="" />
+                    </div>
+                    <div class="chu">
+                      <p class="font15 p">THANH TOÁN TẠI NHÀ</p>
+                      <p class="font12 p">Ship toàn quốc</p>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <div class="hotline">
+                      <img src="./images/hotline.gif" alt="" />
+                    </div>
+                    <div class="chu">
+                      <p class="font15 p">TƯ VẤN MIỄN PHÍ</p>
+                      <p class="font12 p">096.560.6786</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="container d-flex justify-content-end">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link mt-2 mb-2" href="#">GIỚI THIỆU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mt-2 mb-2" href="#">SẢN PHẨM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mt-2 mb-2" href="#">TIN TỨC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mt-2 mb-2" href="#">TƯ VẤN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mt-2 mb-2" href="#">LIÊN HỆ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!------------------------------------------ HEADER-END ------------------------------------------>
+      <section class="main">
+        <!------------------------------------------ SLIDER ------------------------------------------>
+        <div class="slider">
+          <div class="slider-item">
+            <div class="clearfix">
+              <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+                <li data-thumb="img/thumb/cS-1.jpg">
+                  <img src="./images/slide1.jpg" />
+                </li>
+                <li data-thumb="img/thumb/cS-2.jpg">
+                  <img src="./images/slide2.jpg" />
+                </li>
+                <li data-thumb="img/thumb/cS-3.jpg">
+                  <img src="./images/slide3.jpg" />
+                </li>
+                <li data-thumb="img/thumb/cS-4.jpg">
+                  <img src="./images/slide4.jpg" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!------------------------------------------ SLIDER-END ------------------------------------------>
+        <!------------------------------------------ SẢN PHẨM NỔI BẬT ------------------------------------------>
+        <div class="main-products pt-5 pb-5">
+          <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12">
+            <div class="container">
+              <div class="title">
+                <div class="row m-3 justify-content-center">
+                  <h3 class="bg-title">
+                    <strong>SẢN PHẨM NỔI BẬT</strong>
+                  </h3>
+                  <div class="line"></div>
+                </div>
+              </div>
+              <div class="products">
+                <div class="row">
+                  <div class="col-md-3 col-sm-6">
+                    <div class="product p-2">
+                      <div class="product_img mb-3">
+                        <a href="#">
+                          <img
+                            src="./images/demo.png"
+                          />
+                        </a>
+                      </div>
+                      <div class="product_content mb-3 text-center">
+                        <div class="product_content-title mb-3">
+                          <a href="#" class="font15">Toen xịt dưỡng hoa hồng</a>
+                        </div>
+                        <div class="product_content-mota mb-3">
+                          <p>
+                            Nước Tắm bé Thảo Dược Dạng Cô Đặc F&P Thảo dược tắm
+                            bé F&P đặc biệt an toàn và hiệu quả với trẻ nhỏ
+                            Thiên nhiên luôn mang đến những điều nhẹ dịu nhất
+                            cho con, do đó, mẹ thường chọn những sản phẩm có
+                            chiết xuất tự nhiên để bảo vệ sức khỏe […]
+                          </p>
+                        </div>
+                      </div>
+                      <div class="product_price text-center mb-3">
+                        <div class="font15">140.000 đ</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="product p-2">
+                      <div class="product_img mb-3">
+                        <a href="#">
+                          <img
+                            src="./images/demo.png"
+                          />
+                        </a>
+                      </div>
+                      <div class="product_content mb-3 text-center">
+                        <div class="product_content-title mb-3">
+                          <a href="#" class="font15">Toen xịt dưỡng hoa hồng</a>
+                        </div>
+                        <div class="product_content-mota mb-3">
+                          <p>
+                            Nước Tắm bé Thảo Dược Dạng Cô Đặc F&P Thảo dược tắm
+                            bé F&P đặc biệt an toàn và hiệu quả với trẻ nhỏ
+                            Thiên nhiên luôn mang đến những điều nhẹ dịu nhất
+                            cho con, do đó, mẹ thường chọn những sản phẩm có
+                            chiết xuất tự nhiên để bảo vệ sức khỏe […]
+                          </p>
+                        </div>
+                      </div>
+                      <div class="product_price text-center mb-3">
+                        <div class="font15">140.000 đ</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="product p-2">
+                      <div class="product_img mb-3">
+                        <a href="#">
+                          <img
+                            src="./images/demo.png"
+                          />
+                        </a>
+                      </div>
+                      <div class="product_content mb-3 text-center">
+                        <div class="product_content-title mb-3">
+                          <a href="#" class="font15">Toen xịt dưỡng hoa hồng</a>
+                        </div>
+                        <div class="product_content-mota mb-3">
+                          <p>
+                            Nước Tắm bé Thảo Dược Dạng Cô Đặc F&P Thảo dược tắm
+                            bé F&P đặc biệt an toàn và hiệu quả với trẻ nhỏ
+                            Thiên nhiên luôn mang đến những điều nhẹ dịu nhất
+                            cho con, do đó, mẹ thường chọn những sản phẩm có
+                            chiết xuất tự nhiên để bảo vệ sức khỏe […]
+                          </p>
+                        </div>
+                      </div>
+                      <div class="product_price text-center mb-3">
+                        <div class="font15">140.000 đ</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="product p-2">
+                      <div class="product_img mb-3">
+                        <a href="#">
+                          <img
+                            src="./images/demo.png"
+                          />
+                        </a>
+                      </div>
+                      <div class="product_content mb-3 text-center">
+                        <div class="product_content-title mb-3">
+                          <a href="#" class="font15">Toen xịt dưỡng hoa hồng</a>
+                        </div>
+                        <div class="product_content-mota mb-3">
+                          <p>
+                            Nước Tắm bé Thảo Dược Dạng Cô Đặc F&P Thảo dược tắm
+                            bé F&P đặc biệt an toàn và hiệu quả với trẻ nhỏ
+                            Thiên nhiên luôn mang đến những điều nhẹ dịu nhất
+                            cho con, do đó, mẹ thường chọn những sản phẩm có
+                            chiết xuất tự nhiên để bảo vệ sức khỏe […]
+                          </p>
+                        </div>
+                      </div>
+                      <div class="product_price text-center mb-3">
+                        <div class="font15">140.000 đ</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!------------------------------------------ SẢN PHẨM NỔI BẬT - END ------------------------------------------>
+        <!------------------------------------------ INTRO ------------------------------------------>
+        <div class="intro p-5">
+          <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <div
+                    class="intro-content d-flex align-items-center flex-column p-4"
+                  >
+                    <div class="intro-content_top pb-3">
+                      <img src="./images/slide1.jpg" />
+                    </div>
+                    <div class="intro-content_mid">
+                      <p>
+                        Là một đơn vị chuyên sản xuất , kinh doanh và nhận gia
+                        công đặt hàng của các đơn vị trên toàn quốc. Ngoài ra
+                        công ty còn hợp tác cổ phần với nhiều nhà máy sản xuất.
+                        Mục tiêu của Mochi mart là sản xuất và cho ra đời những
+                        mặt hàng tiêu dùng sinh học hữu cơ, hàng tiêu dùng dược
+                        liệu, mỹ phẩm làm đẹp với sứ mệnh ĐƯA THIÊN NHIÊN VÀO
+                        CUỘC SỐNG
+                      </p>
+                    </div>
+                    <div class="intro-content_bottom">
+                      <a href="#">XEM THÊM</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="intro-img">
+                    <img
+                      src="http://mochimart.vn/uploads/plugin/custom_img/2022-05-18/1652864441-819055131-custom.jpg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slogan mt-5">
+              <h3>Người bạn đồng hành</h3>
+              <p>Sức khoẻ là trên hết – Vì một môi trường xanh</p>
+            </div>
+          </div>
+        </div>
+        <!------------------------------------------ INTRO - END ------------------------------------------>
+        <!------------------------------------------ DANH SÁCH SẢN PHẨM ------------------------------------------>
+        <div class="list-products pt-4 pb-4">
+          <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12">
+            <div class="container">
+              <div class="title">
+                <div class="row m-3 justify-content-center">
+                  <h3 class="bg-title">
+                    <strong>DANH SÁCH SẢN PHẨM</strong>
+                  </h3>
+                  <div class="line"></div>
+                </div>
+              </div>
+              <div class="list">
+                <div class="row" id="list">
+                  <!-- xử lý js -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!------------------------------------------ DANH SÁCH SẢN PHẨM - END ------------------------------------------>
+        <!------------------------------------------ CAM KẾT ------------------------------------------>
+        <div class="commit">
+          <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12">
+            <div class="container">
+              <div class="title">
+                <div class="row m-3 justify-content-center">
+                  <h3 class="bg-title">
+                    <strong>CAM KẾT CHẤT LƯỢNG</strong>
+                  </h3>
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row col-md-6 mx-auto">
+              <div class="col-md-6">
+                <a href="#">
+                  <img
+                    src="http://mochimart.vn/uploads/plugin/custom_img/2022-05-08/1652023952-923035990-custom.png"
+                  />
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="#">
+                  <img
+                    src="http://mochimart.vn/uploads/plugin/custom_img/2022-05-08/1652023948-986362390-custom.png"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!------------------------------------------ CAM KẾT - END ------------------------------------------>
+        <!------------------------------------------ TƯ VẤN ------------------------------------------>
+        <div class="list-products pt-4 pb-4">
+          <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12">
+            <div class="container">
+              <div class="title">
+                <div class="row m-3 justify-content-center">
+                  <h3 class="bg-title">
+                    <strong>TƯ VẤN</strong>
+                  </h3>
+                  <div class="line"></div>
+                </div>
+              </div>
+              <div class="list-tv">
+                <div class="row" id="list-tv">
+                  <!-- xử lý js -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!------------------------------------------ TƯ VẤN - END ------------------------------------------>
+        <!------------------------------------------ NEW ------------------------------------------>
+        <div class="main-news pt-4 pb-4">
+          <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12">
+            <div class="container">
+              <div class="title">
+                <div class="row m-3 justify-content-center">
+                  <h3 class="bg-title">
+                    <strong>TIN TỨC</strong>
+                  </h3>
+                  <div class="line"></div>
+                </div>
+              </div>
+              <div class="news">
+                <div class="row">
+                  <div class="col-md-3 col-sm-6">
+                    <div class="product p-2">
+                      <div class="product_img mb-3">
+                        <a href="#">
+                          <img
+                            src="./images/demo.png"
+                          />
+                        </a>
+                      </div>
+                      <div class="product_content mb-3 text-center">
+                        <div class="product_content-title mb-3">
+                          <a href="#" class="font15">Mở hộp Vivo V5s</a>
+                        </div>
+                        <div class="product_price text-center mb-3">
+                          <div class="fontDar">
+                            <span>
+                              <i class="fa fa-clock-o" aria-hidden="true"></i>
+                              17:20 - 22/05/2017
+                            </span>
+                          </div>
+                        </div>
+                        <div class="product_content-mota mb-3">
+                          <p>
+                            Tiếp tục phát huy ưu thế camera selfie ở V5 Plus,
+                            Vivo tiếp tục tung ra chiếc V5s với nhiều...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="product p-2">
+                      <div class="product_img mb-3">
+                        <a href="#">
+                          <img
+                            src="./images/demo.png"
+                          />
+                        </a>
+                      </div>
+                      <div class="product_content mb-3 text-center">
+                        <div class="product_content-title mb-3">
+                          <a href="#" class="font15">Mở hộp Vivo V5s</a>
+                        </div>
+                        <div class="product_price text-center mb-3">
+                          <div class="fontDar">
+                            <span>
+                              <i class="fa fa-clock-o" aria-hidden="true"></i>
+                              17:20 - 22/05/2017
+                            </span>
+                          </div>
+                        </div>
+                        <div class="product_content-mota mb-3">
+                          <p>
+                            Tiếp tục phát huy ưu thế camera selfie ở V5 Plus,
+                            Vivo tiếp tục tung ra chiếc V5s với nhiều...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="product p-2">
+                      <div class="product_img mb-3">
+                        <a href="#">
+                          <img
+                            src="./images/demo.png"
+                          />
+                        </a>
+                      </div>
+                      <div class="product_content mb-3 text-center">
+                        <div class="product_content-title mb-3">
+                          <a href="#" class="font15">Mở hộp Vivo V5s</a>
+                        </div>
+                        <div class="product_price text-center mb-3">
+                          <div class="fontDar">
+                            <span>
+                              <i class="fa fa-clock-o" aria-hidden="true"></i>
+                              17:20 - 22/05/2017
+                            </span>
+                          </div>
+                        </div>
+                        <div class="product_content-mota mb-3">
+                          <p>
+                            Tiếp tục phát huy ưu thế camera selfie ở V5 Plus,
+                            Vivo tiếp tục tung ra chiếc V5s với nhiều...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="product p-2">
+                      <div class="product_img mb-3">
+                        <a href="#">
+                          <img
+                            src="./images/demo.png"
+                          />
+                        </a>
+                      </div>
+                      <div class="product_content mb-3 text-center">
+                        <div class="product_content-title mb-3">
+                          <a href="#" class="font15">Mở hộp Vivo V5s</a>
+                        </div>
+                        <div class="product_price text-center mb-3">
+                          <div class="fontDar">
+                            <span>
+                              <i class="fa fa-clock-o" aria-hidden="true"></i>
+                              17:20 - 22/05/2017
+                            </span>
+                          </div>
+                        </div>
+                        <div class="product_content-mota mb-3">
+                          <p>
+                            Tiếp tục phát huy ưu thế camera selfie ở V5 Plus,
+                            Vivo tiếp tục tung ra chiếc V5s với nhiều...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!------------------------------------------ NEW - END ------------------------------------------>
+        <!------------------------------------------ THƯƠNG HIỆU ------------------------------------------>
+        <div class="firm">
+          <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12">
+            <div class="container">
+              <div class="title">
+                <div class="row m-3 justify-content-center">
+                  <h3 class="bg-title">
+                    <strong>THƯƠNG HIỆU</strong>
+                  </h3>
+                  <div class="line"></div>
+                </div>
+              </div>
+              <div class="item">
+                <ul id="content-slider" class="content-slider">
+                  <li class="d-flex flex-column align-items-center">
+                    <a href="" class="item-brand mb-3">
+                      <img
+                        src="http://mochimart.vn/uploads/plugin/partner/23/1568100959-1385188519-tosiba.png"
+                      />
+                    </a>
+                    <a href="" class="item-brand">
+                      <img
+                        src="http://mochimart.vn/uploads/plugin/partner/22/1568100979-878209458-sony.png"
+                      />
+                    </a>
+                  </li>
+                  <li class="d-flex flex-column align-items-center">
+                    <a href="" class="item-brand mb-3">
+                      <img
+                        src="http://mochimart.vn/uploads/plugin/partner/27/1568100895-541159025-microsof.png"
+                      />
+                    </a>
+                    <a href="" class="item-brand">
+                      <img
+                        src="http://mochimart.vn/uploads/plugin/partner/26/1568100907-1997209252-apple.png"
+                      />
+                    </a>
+                  </li>
+                  <li class="d-flex flex-column align-items-center">
+                    <a href="" class="item-brand mb-3">
+                      <img
+                        src="http://mochimart.vn/uploads/plugin/partner/25/1568100920-1184138246-msi.png"
+                      />
+                    </a>
+                    <a href="" class="item-brand">
+                      <img
+                        src="http://mochimart.vn/uploads/plugin/partner/24/1568100931-1830953450-electronic.png"
+                      />
+                    </a>
+                  </li>
+                  <li class="d-flex flex-column align-items-center">
+                    <a href="" class="item-brand mb-3">
+                      <img
+                        src="http://mochimart.vn/uploads/plugin/partner/21/1568100996-855827388-pansonic.png"
+                      />
+                    </a>
+                    <a href="" class="item-brand">
+                      <img
+                        src="http://mochimart.vn/uploads/plugin/partner/19/1568101008-1875405560-acer.png"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!------------------------------------------ THƯƠNG HIỆU - END ------------------------------------------>
+      </section>
+    </div>
+
+    <!-- BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- SLIDER -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script src="./js/lightslider-master/src/js/lightslider.js"></script>
+    <script async src="./js/app.js"></script>
+  </body>
+</html>

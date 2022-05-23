@@ -1,0 +1,35 @@
+.header {
+  & a, & a:hover{
+    text-decoration: none;
+    color: $text-color !important;
+  }
+  &-top, &-bottom{
+    background: $primary-color;
+    font-size: 16px;
+    & .dropdown-toggle::after {
+      display: none;
+    }
+  }
+
+  &-center{
+      &_image{
+          width: 409px;
+          height: 75px;
+      }
+      img{
+          width: 100%;
+          height: 100%;
+      }
+      & .dolar, .hotline{
+          width: 39px;
+          height: 39px;
+          margin-right: 15px;
+      }
+  }
+
+  &-bottom{
+      & li:hover{
+          background-color: rgba(0,0,0,.07);
+      }
+  }
+}
