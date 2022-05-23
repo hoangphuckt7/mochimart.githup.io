@@ -2,7 +2,7 @@ const products = [
   {
     id: 1,
     thumb:
-      "http://mochimart.vn/uploads/plugin/product_items/20/thumb/thumb_350_tonehh.png",
+      "./images/demo.png",
     title: "Toen xịt dưỡng hoa hồng",
     url: "http://mochimart.vn/toen-xit-duong-hoa-hong.html",
     price: "140.000đ",
@@ -11,7 +11,7 @@ const products = [
   {
     id: 2,
     thumb:
-      "http://mochimart.vn/uploads/plugin/product_items/20/thumb/thumb_350_tonehh.png",
+      "./images/demo.png",
     title: "Toen xịt dưỡng hoa hồng",
     url: "http://mochimart.vn/toen-xit-duong-hoa-hong.html",
     price: "140.000đ",
@@ -20,7 +20,7 @@ const products = [
   {
     id: 3,
     thumb:
-      "http://mochimart.vn/uploads/plugin/product_items/20/thumb/thumb_350_tonehh.png",
+      "./images/demo.png",
     title: "Toen xịt dưỡng hoa hồng",
     url: "http://mochimart.vn/toen-xit-duong-hoa-hong.html",
     price: "140.000đ",
@@ -29,7 +29,7 @@ const products = [
   {
     id: 4,
     thumb:
-      "http://mochimart.vn/uploads/plugin/product_items/20/thumb/thumb_350_tonehh.png",
+      "./images/demo.png",
     title: "Toen xịt dưỡng hoa hồng",
     url: "http://mochimart.vn/toen-xit-duong-hoa-hong.html",
     price: "140.000đ",
@@ -38,7 +38,7 @@ const products = [
   {
     id: 5,
     thumb:
-      "http://mochimart.vn/uploads/plugin/product_items/20/thumb/thumb_350_tonehh.png",
+      "./images/demo.png",
     title: "Toen xịt dưỡng hoa hồng",
     url: "http://mochimart.vn/toen-xit-duong-hoa-hong.html",
     price: "140.000đ",
@@ -47,7 +47,7 @@ const products = [
   {
     id: 6,
     thumb:
-      "http://mochimart.vn/uploads/plugin/product_items/20/thumb/thumb_350_tonehh.png",
+      "./images/demo.png",
     title: "Toen xịt dưỡng hoa hồng",
     url: "http://mochimart.vn/toen-xit-duong-hoa-hong.html",
     price: "140.000đ",
@@ -56,7 +56,7 @@ const products = [
   {
     id: 7,
     thumb:
-      "http://mochimart.vn/uploads/plugin/product_items/20/thumb/thumb_350_tonehh.png",
+      "./images/demo.png",
     title: "Toen xịt dưỡng hoa hồng",
     url: "http://mochimart.vn/toen-xit-duong-hoa-hong.html",
     price: "140.000đ",
@@ -65,7 +65,7 @@ const products = [
   {
     id: 8,
     thumb:
-      "http://mochimart.vn/uploads/plugin/product_items/20/thumb/thumb_350_tonehh.png",
+      "./images/demo.png",
     title: "Toen xịt dưỡng hoa hồng",
     url: "http://mochimart.vn/toen-xit-duong-hoa-hong.html",
     price: "140.000đ",
